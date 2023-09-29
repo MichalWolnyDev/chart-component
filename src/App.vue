@@ -6,10 +6,17 @@
     responsive: true,
     scales: {
       x: {
+        display: false,
         stacked: true
       },
       y: {
+        display: false,
         stacked: true
+      }
+    },
+    plugins: {
+      legend: {
+        display: false
       }
     }
   })
@@ -20,7 +27,7 @@
           {
             type: 'line',
             label: 'Line Dataset',
-            data: [40, 20, 30, 15, 80, 100, 10],
+            data: [140, 220, 130, 115, 180, 100, 210],
             backgroundColor: '#fff',
             borderColor: '#FF8D1C',
             pointRadius: 10,
@@ -38,7 +45,7 @@
             label: 'Bar Dataset 2',
             backgroundColor: '#ff0',
             borderRadius: 100,
-            data: [40, 20, 30, 15, 80, 100, 10]
+            data: [60, 20, 30, 15, 80, 100, 10]
           },
           {
             type: 'bar',
