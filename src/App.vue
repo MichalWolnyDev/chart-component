@@ -8,6 +8,8 @@ const chartOptions = ref({
   borderRadius: 100,
   pointRadius: 3,
   pointHoverRadius: 8,
+  pointBorderWidth: 2,
+  tension: .3,
   responsive: true,
   scales: {
     x: {
@@ -78,7 +80,7 @@ const chartData = ref({
 </template>
 
 <style scoped>
-.chart{
+.chart {
   max-width: 500px;
 }
 </style>
