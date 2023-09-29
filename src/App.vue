@@ -23,6 +23,19 @@ const chartOptions = ref({
     legend: {
       display: false,
     },
+    tooltip: {
+      backgroundColor: '#fff',
+      borderWidth: 1,
+      borderColor: '#EBEBEB',
+      titleColor: '#000',
+      bodyColor: '#000',
+      padding: 15,
+      usePointStyle: true,
+      boxPadding: 5,
+      bodyFont: {
+        size: 12
+      }
+    }
   },
 });
 
